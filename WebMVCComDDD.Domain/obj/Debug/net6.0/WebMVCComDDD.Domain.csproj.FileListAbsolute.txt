@@ -1,0 +1,12 @@
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\bin\Debug\net6.0\WebMVCComDDD.Domain.deps.json
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\bin\Debug\net6.0\WebMVCComDDD.Domain.dll
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\bin\Debug\net6.0\WebMVCComDDD.Domain.pdb
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.csproj.AssemblyReference.cache
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.AssemblyInfoInputs.cache
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.AssemblyInfo.cs
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.dll
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\refint\WebMVCComDDD.Domain.dll
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\WebMVCComDDD.Domain.pdb
+C:\Users\lcarv\source\repos\WebMVCComDDD\WebMVCComDDD.Domain\obj\Debug\net6.0\ref\WebMVCComDDD.Domain.dll
