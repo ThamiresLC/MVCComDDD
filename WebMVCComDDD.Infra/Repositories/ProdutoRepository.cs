@@ -22,10 +22,27 @@ namespace WebMVCComDDD.Infra.Repositories
             return _applicationDbContext.Produtos.ToList();
         }
 
+        public void Delete(Produto produto)
+        {
+            _applicationDbContext.Produtos.Remove(produto);
+            _applicationDbContext.SaveChanges();
+        }
+
+        public Produto GetById(int id)
+        {
+            return _applicationDbContext.Produtos.Find(id);
+        }
+
         public void Insert(Produto produto)
         {
             _applicationDbContext.Produtos.Add(produto);
             _applicationDbContext.SaveChangesAsync();
+        }
+
+        public void Update(Produto produto)
+        {
+            _applicationDbContext.Update(produto);
+            _applicationDbContext.SaveChanges();
         }
     }
 }

@@ -18,6 +18,15 @@ namespace WebMVCComDDD.Application.Applications
         {
             _produtoRepository = produtoRepository;
         }
+
+        public void Delete(int id)
+        {
+            var produto = _produtoRepository.GetById(id);
+            if (produto != null)
+                _produtoRepository.Delete(produto);
+            
+        }
+
         public IEnumerable<ProdutoViewModel> GetAll()
         {
             var produtos = _produtoRepository.GetAll();
@@ -30,6 +39,18 @@ namespace WebMVCComDDD.Application.Applications
             return produtosViewModel;
         }
 
+        public ProdutoViewModel GetById(int id)
+        {
+            var produto = _produtoRepository.GetById(id);
+
+            return new ProdutoViewModel
+            {
+                Id = produto.Id,
+                Nome = produto.Nome,
+                Marca = produto.Marca
+            };
+        }
+
         public void Insert(ProdutoViewModel produtoViewModel)
         {
                 var produto = new Produto
@@ -40,6 +61,15 @@ namespace WebMVCComDDD.Application.Applications
 
             _produtoRepository.Insert(produto);
                      
+        }
+
+        public void Update(ProdutoViewModel produtoViewModel)
+        {
+            var produto = _produtoRepository.GetById(produtoViewModel.Id);
+            produto.Marca = produtoViewModel.Marca;
+            produto.Nome = produtoViewModel.Nome;
+
+            _produtoRepository.Update(produto);
         }
     }
 }

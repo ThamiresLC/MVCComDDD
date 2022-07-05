@@ -11,5 +11,8 @@ namespace WebMVCComDDD.Application.Interfaces
     {
         IEnumerable<ProdutoViewModel> GetAll();
         void Insert(ProdutoViewModel produtoViewModel);
+        ProdutoViewModel GetById(int id);
+        void Update(ProdutoViewModel produtoViewModel);
+        void Delete(int id);
     }
 }
